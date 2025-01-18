@@ -23,6 +23,9 @@
     .somefacts div{
       padding-left: 10px;
     }
+    .somefacts{
+      margin-top: 30px;
+    }
     .somefacts .boxes{
       height: auto;
       width: 100%;
@@ -123,6 +126,9 @@ margin-top: 0px;
 margin-left: 0px;
 }
   /* <!-- Some Facts --> */
+  .somefacts{
+    margin-top: 30px;
+  }
   .somefacts div{
     padding-left: 10px;
   }
@@ -238,6 +244,9 @@ gap: 30px;
       margin-left: 0px;
     }
     /* <!-- Some Facts --> */
+    .somefacts{
+      margin-top: 30px;
+    }
     .somefacts div{
       padding-left: 10px;
     }
