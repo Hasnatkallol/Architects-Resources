@@ -1,0 +1,274 @@
+@media screen and (min-width:993px) and (max-width:1440px){
+  .features-you-enjoy{
+    flex-direction: column;
+     height: auto;
+     margin: 0;
+     padding: 0;
+     gap: 0px;
+     justify-content: center;
+     align-items: center;
+   }
+   .features-you-enjoy div .p10{
+    margin: 0 auto;
+     width: 400px;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    #experience-badge{
+      padding: 25px 22px;
+      margin-top: 50px;
+    }
+    .somefacts div{
+      padding-left: 10px;
+    }
+    .somefacts .boxes{
+      height: auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      padding: 0px;
+      gap: 10px;
+    }
+    .somefacts .boxes .box{
+      margin: 0 auto;
+    }
+    .our-sponsors .icon{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 30px;
+      }
+ }
+
+
+/* Responsive for medium design  */
+@media screen and (min-width:576px) and (max-width:992px){
+  header{
+    height: auto;
+  }
+    .navbar
+    {
+      padding: 0 20px;
+       margin: 0 auto 0px auto;
+    }
+    .navbar ul li {
+      margin: 0 auto;
+      padding: 15px;
+     }
+     .banner-desc{
+        padding: 0 6px;
+     }
+
+     /* Quick list for feature */
+     .quicklist-features{
+      flex-direction: column;
+    }
+    .quicklist-features .img-part{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 30px;
+    }
+    .quicklist-features .text{
+      text-align: center;
+    }
+    .quicklist-features .img-part img{
+   width: 100%;
+    }
+ /* features-you-enjoy................... */
+ /* features-you-enjoy................... */
+
+.features-you-enjoy{
+
+  flex-direction: column;
+   height: auto;
+   margin: 0;
+   padding: 0;
+   gap: 0px;
+   
+ }
+.features-you-enjoy .text .title{
+   border-left:5px solid rgba(255, 144, 14, 1);
+   padding: 10px;
+   padding-top: 10px;
+ }
+.features-you-enjoy .text .card{
+   box-shadow: 0px 4px 30px 0 rgba(0, 0, 0, 0.06);
+   width: 100%;
+   height: auto;
+   margin: 10px auto;
+   padding: 10px;
+ }
+.features-you-enjoy .feature-description{
+padding-left: 10px;
+}
+.features-you-enjoy div .img{
+width: 500px;
+height: auto;
+margin: 0 auto;
+ }
+.features-you-enjoy .img img{
+  width: 100%;
+       }
+.features-you-enjoy div .p10{
+margin: 0 auto;
+width: 400px;
+height: auto;
+display: flex;
+justify-content: center;
+}
+#experience-badge{
+padding: 25px 22px;
+margin-top: 0px;
+margin-left: 0px;
+}
+  /* <!-- Some Facts --> */
+  .somefacts div{
+    padding-left: 10px;
+  }
+  .somefacts .boxes{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0px;
+    gap: 10px;
+  }
+  .somefacts .boxes .box{
+    margin: 0 auto;
+  }
+  /* Our sponsors */
+.our-sponsors{
+  width: 100%;
+  flex-direction: column;
+  margin: 0  auto;
+  padding: 20px;
+  gap: 0px;
+}
+.our-sponsors .icon{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 30px;
+}
+    
+   }
+
+
+   /* Responsive for mobile design  */
+   @media screen and (max-width:576px){
+    header{
+      height: auto;
+    }
+       .navbar
+       {
+          flex-direction: column;
+          margin: 0 auto 0px auto;
+       }
+       .navbar ul li {
+         margin: 0 auto;
+         padding: 15px;
+        }
+        /* Quick list for feature */
+
+        .quicklist-features{
+          margin: 0 auto 80px auto;
+          padding: 20px;
+          gap: 0px;
+    
+        
+          flex-direction: column;
+        }
+        .quicklist-features .text {
+          align-self: center;
+        }
+        .quicklist-features .img-part{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          gap: 20px;
+        }
+        .quicklist-features .img-part img{
+            width: 100%;
+        }
+        .quicklist-features .text{
+          text-align: center;
+        }
+/* features-you-enjoy................... */
+
+.features-you-enjoy{
+         flex-direction: column;
+          height: auto;
+          margin: 0;
+          padding: 0;
+          gap: 0px;
+          
+        }
+.features-you-enjoy .text .title{
+          border-left:5px solid rgba(255, 144, 14, 1);
+          padding: 10px;
+          padding-top: 10px;
+        }
+.features-you-enjoy .text .card{
+          box-shadow: 0px 4px 30px 0 rgba(0, 0, 0, 0.06);
+          width: 100%;
+          height: auto;
+          margin: 10px auto;
+          padding: 10px;
+        }
+.features-you-enjoy .feature-description{
+  padding-left: 10px;
+}
+.features-you-enjoy .img{
+    width: 340px;
+    height: auto;
+    margin: 0 auto;
+        }
+.features-you-enjoy .img img{
+         width: 100%;
+              }
+  .features-you-enjoy div .p10{
+  margin: 0 auto;
+   width: 400px;
+   height: auto;
+   display: flex;
+   justify-content: center;
+  }
+    #experience-badge{
+      padding: 25px 22px;
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    /* <!-- Some Facts --> */
+    .somefacts div{
+      padding-left: 10px;
+    }
+    .somefacts .boxes{
+      height: auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      padding: 0px;
+      gap: 10px;
+    }
+    .somefacts .boxes .box{
+      margin: 0 auto;
+    }
+
+/* Our sponsors */
+.our-sponsors{
+  width: 100%;
+  flex-direction: column;
+  margin: 0  auto;
+  padding: 20px;
+  gap: 0px;
+}
+.our-sponsors .icon{
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+
+
+
+
+      }
