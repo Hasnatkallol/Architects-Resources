@@ -205,6 +205,7 @@ border-radius: 8px;
   width:242px;
   height: 202px;
   border: 1px solid  rgba(255, 144, 14, 1);
+  border-radius: 10px;
 }
 .somefacts .boxes .box .box-container{
   display: flex;
